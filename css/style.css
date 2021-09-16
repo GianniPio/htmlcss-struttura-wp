@@ -70,12 +70,11 @@ header{
     float: right;
 }
 
-/* .clearflix{
+.clearflix::after{
     content: "";
     display: table;
     clear: both;
-} */
-
+}
 
 /* tag footer */
 
