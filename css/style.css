@@ -9,7 +9,8 @@
 /* tag body */
 
 #contenitore{
-    height: auto;
+    /* tag da togliere */
+    /* height: auto; */
     margin: 2% 7%;
 }
 
@@ -55,9 +56,10 @@ header{
 }
 
 .center{
+    /* tag da togliere */
+    /* margin: 0% auto; */
     height: 82%;
     width: 58%;
-    margin: 0% auto;
     display: inline-block;
 
 }
