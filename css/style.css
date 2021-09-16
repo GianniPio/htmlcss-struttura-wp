@@ -1,0 +1,32 @@
+/* tag generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tag body */
+
+#contenitore{
+    border: 1px solid black;
+    height: 1000px;
+    margin: 2% 5%;
+}
+
+/* tag header */
+
+header{
+    background-color: fuchsia;
+    height: 80px;
+    margin-bottom: 2%;
+}
+
+/* tag main */
+
+.sopra{
+    background-color: rgb(226, 226, 47);
+    height: 30px;
+    /* margin-top: 20px; */
+
+}
