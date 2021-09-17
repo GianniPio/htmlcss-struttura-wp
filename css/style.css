@@ -1,15 +1,21 @@
 /* tag generali */
 
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
+
+.clearflix::after{
+    content: "";
+    display: table;
+    clear: both;
+    padding: 5px;
+}
 
 /* tag body */
 
 #contenitore{
-    /* tag da togliere */
     /* height: auto; */
     margin: 2% 7%;
 }
@@ -34,7 +40,6 @@ header{
 
 .sotto{
     background-color: rgb(0, 60, 255) ;
-    height: 700px;
 }
 
 /* tag della classe "sotto" */
@@ -44,36 +49,23 @@ header{
 }
 
 .title{
-    height: 13%;
+    height: 100px;
     margin-bottom: 1%;
 }
 
-.left{
-    height: 82%;
-    width: 20%;
+aside{
+    height: 400px;
+    width: 17%;
     float: left;
-    margin-right: 1%;
 }
 
 .center{
     /* tag da togliere */
-    /* margin: 0% auto; */
-    height: 82%;
-    width: 58%;
-    display: inline-block;
+    height: 400px;
+    width: 64%;
+    float: left;
+    margin: 0 1%;
 
-}
-
-.right{
-    height: 82%;
-    width: 20%;
-    float: right;
-}
-
-.clearflix::after{
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /* tag footer */
@@ -81,5 +73,5 @@ header{
 footer{
     background-color: blueviolet;
     height: 40px;
-    margin-top: 0.5%;
+    margin-top: 1%;
 }
